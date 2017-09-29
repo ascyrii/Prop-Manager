@@ -19,7 +19,7 @@ namespace Props
     public class CServer
     {
         public string g_Map;
-        private const string apiUrl = "https://coldcommunity.com/dev/response_server.php";
+        private const string apiUrl = "response_server.php";
         public ConnectionStatus connectionStatus = ConnectionStatus.Disconnected;
         public CServer()
         {
