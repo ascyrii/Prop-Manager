@@ -21,10 +21,7 @@ namespace Props
         public string g_Map;
         private const string apiUrl = "response_server.php";
         public ConnectionStatus connectionStatus = ConnectionStatus.Disconnected;
-        public CServer()
-        {
-
-        }
+        public CServer(){}
 
         public void InitalizeConnection()
         {
